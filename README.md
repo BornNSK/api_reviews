@@ -1,7 +1,7 @@
-# api_yamdb
+# api_reviews
 ### Описание
 
-Проект YaMDb собирает отзывы пользователей на произведения («Книги», «Фильмы», «Музыка»)
+Проект Reviews собирает отзывы пользователей на произведения («Книги», «Фильмы», «Музыка»)
 
 ### Стек:
 - Python 3.7.0
@@ -19,16 +19,16 @@
 - docker
 
 ```
-git clone https://github.com/BornNSK/infra_sp2
+git clone https://github.com/BornNSK/api_reviews
 
-docker pull bornnsk/infra_sp2:v1
+docker pull bornnsk/api_reviews
 ```
 
 Перейти в папку infra и запустить docker-compose.yaml
 (при запущенном Docker)
 
 ```
-cd infra_sp2/infra
+cd api_reviews/infra
 
 docker-compose up
 ```
